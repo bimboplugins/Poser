@@ -1,0 +1,43 @@
+﻿<Project Sdk="Dalamud.NET.Sdk/14.0.1">
+    <PropertyGroup>
+        <Title>Poser</Title>
+        <Authors>BimboPlugins</Authors>
+        <Description>Instantly switch between available idle, sit, and doze poses via UI (/poser, /poserconfig) or flexible slash commands (/pidle, /psit, /pgsit, /pdoze).</Description>
+        <Version>1.0.0.0</Version>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <TargetFramework>net10.0-windows</TargetFramework>
+        <Platforms>x64</Platforms>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <DalamudLibPath>$(appdata)\XIVLauncher\addon\Hooks\dev\</DalamudLibPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="Dalamud">
+            <HintPath>$(DalamudLibPath)Dalamud.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="FFXIVClientStructs">
+            <HintPath>$(DalamudLibPath)FFXIVClientStructs.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include=".gitignore" />
+        <Content Include="images\64px-Change_Pose_Emote_Icon.png" />
+        <Content Include="pluginmaster.json" />
+        <Content Include="Poser.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="README.md" />
+    </ItemGroup>
+</Project>

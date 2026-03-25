@@ -1,0 +1,24 @@
+﻿{
+  "Author": "BimboPlugins",
+  "Name": "Poser",
+  "InternalName": "Poser",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "A lightweight UI and command utility to instantly switch between your available idle, ground sit, chair sit, and doze poses. Use the GUI (/poser), configuration menu (/poserconfig), or targeted slash commands (/pidle, /psit, /pgsit, /pdoze) to snap directly to a specific pose index. You can also use subcommands directly from the main command (e.g., /poser idle 2, /poser sit 1).",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "pose",
+    "emotes",
+    "gpose",
+    "stances",
+    "animation",
+    "idle",
+    "sit",
+    "doze"
+  ],
+  "DalamudApiLevel": 14,
+  "IconUrl": "https://raw.githubusercontent.com/bimboplugins/Poser/main/images/64px-Change_Pose_Emote_Icon.png",
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "Instantly switch your idle, sit, and doze poses."
+}
