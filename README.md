@@ -1,6 +1,6 @@
 ﻿# Poser
 
-Poser is a lightweight UI and command utility that allows you to instantly switch between your available idle, ground sit, chair sit, and doze poses. Bypass the standard emote menu and snap directly to a specific pose index using a sleek visual interface or targeted slash commands.
+Poser is a lightweight FFXIV UI and command utility that allows you to switch between your available idle, ground sit, chair sit, and doze poses. Snap directly to a specific pose index using a the Poser window or targeted slash commands.
 
 ## Installation
 To install Poser, you will need to add this custom repository to your Dalamud settings.
