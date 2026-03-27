@@ -21,7 +21,7 @@
     "LoadSync": false,
     "LoadPriority": 0,
     "Punchline": "Instantly switch your idle, sit, and doze poses.",
-    "IconUrl": "https://raw.githubusercontent.com/bimboplugins/Poser/main/images/64px-Change_Pose_Emote_Icon.png",
+    "IconUrl": "https://raw.githubusercontent.com/bimboplugins/Poser/master/images/64px-Change_Pose_Emote_Icon.png",
     "DownloadLinkInstall": "https://github.com/bimboplugins/Poser/releases/download/latest/Poser.zip",
     "DownloadLinkTesting": "https://github.com/bimboplugins/Poser/releases/download/latest/Poser.zip",
     "DownloadLinkUpdate": "https://github.com/bimboplugins/Poser/releases/download/latest/Poser.zip",
