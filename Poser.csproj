@@ -32,6 +32,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <Content Include=".github\workflows\release.yml" />
         <Content Include=".gitignore" />
         <Content Include="images\64px-Change_Pose_Emote_Icon.png" />
         <Content Include="pluginmaster.json" />
