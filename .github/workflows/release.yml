@@ -26,9 +26,10 @@ jobs:
 
       - name: Build Poser
         run: dotnet build -c Release
-
-      - name: Zip Release
-        run: Compress-Archive -Path "bin/Release/Poser/*" -DestinationPath "Poser.zip" -Force
+      
+      # We removed the Compress-Archive step and replaced it with a simple Move/Rename
+      - name: Prepare Release Asset
+        run: Move-Item -Path "bin/Release/Poser/latest.zip" -Destination "Poser.zip" -Force
 
       - name: Publish Rolling Release
         env:
